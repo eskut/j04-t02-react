@@ -10,13 +10,21 @@ import './App.css';
 //   + div (.Kortti)
 //     + h1-otsikkoelementti
 //     + tekstikappale
+function Kortti() {
+  return (
+   <div className="Kortti">
+     <h1>kokeilu</h1>
+     <p>onnistuko nyt</p>
+   </div>
+  );
+}
 
 function App() {
   // Kutsu Kortti-komponenttia vähintään kerran
   // alla olevan div-elementin sisällä. 
   return (
     <div className="App">
-
+     <Kortti />
     </div>
   );
 }
